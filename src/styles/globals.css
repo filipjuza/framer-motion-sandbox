@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  --size: 100px;
+  height: var(--size);
+  width: var(--size);
+}
+
+.box.drag {
+  position: relative;
+}
+
+.box.drag::after {
+  font-size: 13px;
+  content: "drag me";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
