@@ -1,6 +1,6 @@
 # Framer Motion Sandbox
 
-https://framer-motion-sandbox-filipjuza.vercel.app
+https://framer-motion-sandbox-filipj.vercel.app
 
 Basic Framer Motion examples, some recreated from https://www.framer.com/motion/.
 
